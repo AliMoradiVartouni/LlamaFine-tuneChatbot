@@ -114,4 +114,4 @@ async def main(user_input: UserInput):
 
 # uvicorn FairFace:app --reload
 if __name__ == "__main__":
-    uvicorn.run(app, host="46.4.82.183", port=8000)
+    uvicorn.run(app, host="127.0.0.1", port=8000)
